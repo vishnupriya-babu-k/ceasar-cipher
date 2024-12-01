@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRYPTOGRAPHY</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div>
+  <h1>Welcome to the Crypto page</h1>
+  <p>Here you can encrypt and decrypt messages.</p>
+  <label for="message">Enter Message:</label>
+  <textarea id="message" rows="4" cols="50" placeholder="Enter message"></textarea>
+  <br>
+  <label for="key">Enter Key (Shift):</label>
+  <input type="number" id="key" placeholder="Enter key">
+  <br>
+  <button onclick="encrypt()">Encrypt</button>
+  <button onclick="decrypt()">Decrypt</button>
+  <p>Encrypted/Decrypted Message: <span id="result"></span></p>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
